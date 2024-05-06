@@ -17,7 +17,8 @@ const TopNavigation = () => {
           <div className="flex items-center flex-shrink-0">
             <img className="h-6 w-25 mr-2" src={logo} alt="Logo" />
           </div>
-          <ul className="hidden lg:flex ml-14 space-x-12 text-white">
+          {/* Nav items for medium and larger screens */}
+          <ul className="hidden md:flex ml-14 space-x-12 text-white">
             {navItems.map((item, index) => (
               <li key={index}>
                 <a href={item.href}>{item.label}</a>
@@ -27,10 +28,11 @@ const TopNavigation = () => {
 
           <div className="lg:hidden md:flex flex-col justify-end">
             <button onClick={toggleNavbar} className="block md:hidden">
-              {mobileDrawerOpen ? <X className="text-black"/> : <Menu className="text-white" />}
+              {mobileDrawerOpen ? <X className="text-white"/> : <Menu className="text-white" />}
             </button>
           </div>
         </div>
+        {/* Mobile drawer */}
         {mobileDrawerOpen && (
           <div className="fixed right-0 z-20 bg-white w-full p-12 flex flex-col justify-center items-center lg:hidden">
             <ul>
