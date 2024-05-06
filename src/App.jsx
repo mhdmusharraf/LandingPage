@@ -1,9 +1,13 @@
 import React from "react";
+import TopNavigation from "./components/TopNavigation";
+import HeroSection from "./components/HeroSection";
+
 
 const App = () => {
   return (
     <div>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <TopNavigation/>
+      <HeroSection/>
     </div>
   );
 };
