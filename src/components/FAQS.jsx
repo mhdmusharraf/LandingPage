@@ -48,18 +48,18 @@ const FAQS = () => {
   const data = [
     {
       id: 1,
-      question: 'What is React?',
-      answer: 'React is a front-end JavaScript library for building user interfaces or UI components.',
+      question: 'How does a digital company work?',
+      answer: 'Many digital businesses start online (and remain online) with 100 percent of their operations existing in a digital space. Online-only digital businesses often have low startup costs and can quickly scale to meet the demands of the market, making them a popular choice for both experienced and fledgling entrepreneurs.',
     },
     {
       id: 2,
-      question: 'What are the benefits of React?',
-      answer: 'Some of the benefits of React are: it is fast, scalable, modular, easy to debug, and supports server-side rendering.',
+      question: 'Is digital marketing in demand in Singapore?',
+      answer: 'As businesses invest heavily in digital marketing to reach their target audiences, the demand for skilled professionals in this field has surged. As such, digital marketers in Singapore are well-positioned to earn competitive salaries.',
     },
     {
       id: 3,
-      question: 'What are the main concepts of React?',
-      answer: 'Some of the main concepts of React are: components, props, state, hooks, lifecycle methods, and JSX.',
+      question: 'Can a digital marketer work from home?',
+      answer: "Digital marketing can be done from virtually anywhere, including from the comfort of your own home. Here's why: Online Platforms: The beauty of digital marketing is that it primarily takes place on online platforms such as social media, search engines, websites, and email.",
     },
   ];
 
